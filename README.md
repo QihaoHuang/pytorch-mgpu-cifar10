@@ -22,7 +22,7 @@ Should scale more than 2 GPUs!
 ## Usage
 
 ```shell
-git@github.com:QihaoHuang/pytorch-mgpu-cifar10.git
+git clone https://github.com/qihao-huang/pytorch-mgpu-cifar10.git
 cd pytorch-mgpu-cifar10
 export CUDA_VISIBLE_DEVICES=0,1 # parallel training with GPUs 0 and 1.
 
